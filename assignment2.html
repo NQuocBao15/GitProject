@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập tạo form đơn giản (phần 2)</title>
+</head>
+<style>
+    table{
+        background-color: rgb(255, 255, 103);
+        width: 400px;
+    }
+    td{color: blue;}
+    th{background-color: aquamarine;}
+</style>
+<body>
+    <form action="" method="get">
+        <table>
+            <thead>
+                <th colspan="3" align="left">ĐĂNG KÝ HỌC VIÊN</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Họ và tên</td>
+                    <td><input type="text" style="width: 200px;"></td>
+                </tr>
+                <tr>
+                    <td>Ngày sinh</td>
+                    <td><input type="text" style="width: 110px;"></td>
+                </tr>
+                <tr>
+                    <td>Giới tính</td>
+                    <td style="color: black;"><input type="checkbox" value="gender">Nam <input type="checkbox" value="gender">Nữ</td>
+                </tr>
+                <tr>
+                    <td>Địa chỉ</td>
+                    <td><input type="text" style="height: 40px;"></td>
+                </tr>
+                <tr>
+                    <td>Lớp</td>
+                    <td><select name=""><option value="">--Chọn lớp--</option></select></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="email" style="width: 140px;"></td>
+                </tr>
+                <tr>
+                    <td>Điện thoại</td>
+                    <td><input type="number" style="width: 140px;"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="Đăng ký"><input type="reset" value="Nhập lại"></td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+</html>
